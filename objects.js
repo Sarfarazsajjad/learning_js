@@ -54,3 +54,29 @@ console.log(adder.add(1));         // This would log 2
 
 // objA.f1();
 
+
+var yoyo = {
+    a : 1
+}
+yoyo.a +=1;
+yoyo.b = [1,2,3,4,5];
+console.log(yoyo.b.length);
+yoyo.b.push(6);
+console.log(yoyo.b);
+yoyo.b.pop();
+console.log(yoyo.b);
+
+var myStringArray = ["Hello","World"];
+var arrayLength = myStringArray.length;
+for (var i = 0; i < arrayLength; i++) {
+    console.log(myStringArray[i]);
+    //Do something
+}
+
+
+r1 = ['#','#','#']
+r2 = ['#','#','#']
+r3 = ['#','#','#']
+console.log(r1);
+console.log(r2);
+console.log(r3);
